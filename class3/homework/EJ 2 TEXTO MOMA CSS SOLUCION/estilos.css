@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "trebuchet ms"
+}
+
+body{
+    background-color: #E5E5E5;
+    padding: 20px;
+}
+
+
+h1, h2, h3{
+   
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 48px;
+    background-color: #e58782;
+    color: #fff;
+    text-align: center;
+}
+
+h2{
+    color:crimson;
+    letter-spacing: 5px;
+}
+
+h3{
+    color: #e58782;
+    text-align: center;
+}
+
+p, blockquote, dt, ol, ul{
+    margin-top: 10px;
+ 
+}
+
+p strong{
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+p em{
+    color: #e58782;    
+}
+
+cite{
+    color: #e58782;    
+}
+
+blockquote{
+    text-indent: 15px;
+    font-style: italic;
+    color: #666;
+}
+
+q, abbr{
+    font-style: italic;
+    color: #666;    
+}
+
+dt{
+  
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+dd{
+    text-indent: 15px;
+}
+
+ul, ol{
+    list-style-position: inside;
+}
