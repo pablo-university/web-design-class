@@ -1,0 +1,27 @@
+/*
+color fondo azul
+#2d4059
+
+color tomate
+#ea5455
+*/
+:root {
+    --color-primary: #2d4059;
+}
+
+* {
+    margin: 0;
+    font-family: Helvetica, Arial, monospace;
+}
+
+body {
+    background-color: var(--color-primary);
+}
+
+.container {
+    background-color: #e5e5e5;
+    width: 40em;
+    margin: 17rem auto auto auto;
+    padding: 1em;
+    border-radius: 10px;
+}
