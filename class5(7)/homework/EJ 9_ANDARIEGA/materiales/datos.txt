@@ -1,0 +1,15 @@
+
+Las páginas serán diseñadas con color que ocupará el 100% del ancho de la ventana del dispositivo y el contenido se encontrará centrado en 1000px de ancho.
+
+COLORES:
+Negro #000
+Dorado #CA9951
+Blanco #FFF
+
+FUENTES:
+Google Fonts - Raleway y Abril Fatface
+
+OTROS:
+Cada ítem del menú: 100px, mayúsculas y separación de letras 1px
+Texto entre comillas: tamaño 24px
+Pies de foto: tamaño 10px
