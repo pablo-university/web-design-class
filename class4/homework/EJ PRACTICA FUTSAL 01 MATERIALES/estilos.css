@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin:0;
+    padding:0
+}
+
+body{
+    background:#135264 url(img/pattern.png);	
+    font-family: "Calibri", sans-serif;
+}
+
+#contenedor{
+    width:1024px;
+    margin:0 auto;	
+    background-color:#fff;	
+}
+
+.cabezal{
+    text-align:center;
+    padding:20px 0;
+}
+
+.cabezal img{
+    border: 0;
+}
+
+
+img{
+    border-top: 6px solid #F79321;
+    border-bottom: 6px solid #135264;
+    margin: 20px 0
+}
+
+h1, p , ul{
+    margin: 0 30px;
+}
+
+h1.uno{
+    color: #F79321;
+}
+
+h1.dos{
+    color: #135264;
+}
+
+h1.tres{
+    color:#6CC0DC;
+}
+
+h1.cuatro{
+    color:black;  
+}
+
+.especial{
+  border-top: 6px solid #135264;
+  }
+p{
+    margin:20px 30px;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-image: url(img/ball.png);
+}
+
+table{
+        width: 100%;
+        margin-top: 20px;
+}
+table, th, td{
+    border: 1px solid #F79321;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th{
+    background-color: #F79321;
+    color:white;
+    
+}
+
+th[colspan]{
+    color: #F79321;
+    background-color:white;
+}
+
+td{
+    text-align: center;
+}
