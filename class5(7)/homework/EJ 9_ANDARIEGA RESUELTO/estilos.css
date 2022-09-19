@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Abril Fatface', cursive;*/
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.centrado{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*CONTENEDORES---------------------------------------*/
+
+header{
+    border-top: 15px solid #CA9951;
+    padding: 30px;
+    text-align: center;
+}
+
+nav{
+    border-top: 1px solid #CA9951;
+}
+
+nav ul{
+    overflow: hidden;
+    list-style-type: none;
+    width: 300px;
+    margin: 0 auto;
+}
+
+nav ul li{
+    float: left;
+    width:100px;
+}
+
+nav ul li a, nav ul li a:link{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    color:#CA9951;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav ul li a:hover, nav ul li a.activo{
+    color:black;
+}
+
+.slider{
+    height: 600px;
+    background: #CA9951 url(img/slideHome.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+section{
+    padding: 20px 0;
+}
+
+.dorado{
+    background-color: #CA9951;
+    color:white;
+}
+
+#fondoSuavidad{
+    background: #CA9951 url(img/suavidad.jpg) center bottom;
+    height: 280px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.negro{
+    background-color: black;
+    color:white;
+}
+
+.negro blockquote{
+    border-top: 1px solid #CA9951;
+    border-left: 1px solid #CA9951;    
+    background: url(img/quote.png) no-repeat right center;
+    padding: 20px 200px 20px 20px;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+    padding: 20px 0;
+    border-top: 15px solid white;
+}
+
+footer img{
+    vertical-align: middle;
+}
+
+.negro article{
+    color:white;
+}
+
+article{
+    margin-top: 40px;
+}
+
+/*TEXTOS---------------------------------------*/
+h1, h2, p, ul{
+    margin-top: 10px;
+}
+
+figure{
+    margin-top: 20px;
+}
+
+h1{
+    color: #CA9951;
+}
+
+blockquote{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    color: white;
+}
+
+figcaption{
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+}
+
+.dorado h1{
+    color:white;
+}
+
+/*LISTAS------------------*/
+section ul{
+    list-style-type: none;
+    list-style-image: url(img/vineta.png);
+    list-style-position: inside;
+}
+
+/*ENLACES A*/
+article a, article a:link{
+    display:block;
+    width: 100px;
+    background-color: #CA9951;
+    color: black;
+    border-left: 10px solid black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+article a:hover{    
+    background-color: black;
+    color: #CA9951;
+}
+
+.negro article a, .negro article a:link{
+    
+    border-left-color:white;
+}
+
+.negro article a:hover{    
+    background-color: white;
+    color: #CA9951;
+}
