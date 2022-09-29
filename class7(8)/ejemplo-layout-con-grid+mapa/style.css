@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+aside,
+footer {
+    background-color: #01A5AF;
+}
+
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    min-height: 100vh;
+    gap: 1em
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
