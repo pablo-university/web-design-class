@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Retirar Agua</h1>
+
+        <form action="/validate" class="form">
+            <div class="nombre-de-usuario">
+                <label for="nombre-de-usuario">Nombre</label>
+                <input id="nombre-de-usuario" placeholder="Juan Pedro" type="text" name="nombreDeUsuario" value="">
+            </div>
+
+            <div class="temperaturas">
+                <p>Selecciona temperatura</p>
+                <div>
+                    <input id="temperatura-frio" checked type="radio" name="temperatura" value="frio">
+                    <label for="temperatura-frio">frío</label>
+                    <input id="temperatura-caliente" type="radio" name="temperatura" value="caliente">
+                    <label for="temperatura-caliente">caliente</label>
+                </div>
+            </div>
+
+            <div class="terminos">
+                <label for="terminos">Aceptar términos y cond.</label>
+                <input type="checkbox" name="terminos" id="terminos">
+            </div>
+
+            <input type="submit" value="submit" class="button">
+        </form>
+    </div>
+
+</body>
+
+</html>

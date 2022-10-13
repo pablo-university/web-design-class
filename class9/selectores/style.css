@@ -1,0 +1,50 @@
+/* :empty */
+
+div:empty {
+    width: 2em;
+    background-color: blueviolet;
+    height: 10px;
+}
+
+ul li {
+    width: 5em;
+    border: 1px solid black;
+}
+
+li:first-child {
+    background-color: rgb(15, 133, 113);
+}
+
+em:first-of-type {
+    background-color: darkgray;
+}
+
+li:hover {
+    background-color: cornflowerblue;
+}
+
+/* n es nuestro índice el cuál va a ir aumentando a partir de 1: 
+n=1
+n=2
+n=3
+.
+.
+.
+.
+*/
+/* O simplemente le pasamos al selector el número del elemento que queremos seleccionar*/
+li:nth-child(n + 15) {
+    background-color: rgb(122, 78, 206);
+}
+
+li:nth-last-child(1) {
+    background-color: chocolate;
+}
+
+span:nth-of-type(3) {
+    background-color: rgb(107, 0, 59);
+}
+
+p:nth-last-of-type(1) {
+    color: blue;
+}
