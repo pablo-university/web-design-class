@@ -1,0 +1,48 @@
+.box {
+    background-color: blueviolet;
+    width: 5em;
+    height: 5em;
+    border: 1px solid rgb(48, 48, 48);
+    padding: .3em;
+    color: white;
+}
+
+.generic-box {
+    background-color: rgb(139, 139, 139);
+}
+
+
+
+.position-relative {
+    position: relative;
+    top: 1em;
+    left: 1em;
+
+}
+
+.position-relative-version-2 {
+    background-color: rgb(98, 43, 226);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.position-absolute {
+    background-color: rgb(43, 137, 226);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* z-index
+    Cuando tenemos cajas que tienen posicionamiento generan un contexto en el cual
+    podemos hacer uso del z-index, quién determina o nos ayuda a manejar un orden entre
+    un eje de coordenadas y (o ordenar entre capas)
+*/
+
+.position-fixed {
+    background-color: rgb(230, 57, 207);
+    position: fixed;
+    top: 45%;
+    left: 45%;
+}

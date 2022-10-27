@@ -1,0 +1,64 @@
+* {
+    font-family: Helvetica;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(224, 169, 129);
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(3, 85, 58, 0.308);
+}
+
+.modal {
+    max-width: 25em;
+    position: fixed;
+    /* posición por defecto del modal */
+    top: -100%;
+    left: 35%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.199);
+    padding: 3em;
+    border-radius: 1em;
+    background-color: aliceblue;
+    transition: top 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.modal-overlay {
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s;
+}
+
+.modal-overlay.active {
+    /* display: block; */
+    opacity: 1;
+}
+
+.modal-overlay.active .modal {
+    /* una vez agregamos active a nuestro modal
+    podemos mostrarlo en pantalla */
+    top: 40%;
+}
+
+
+.modal-close {
+    width: 2em;
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+}
+
+.modal-title {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.modal-content {
+    padding: 1em;
+}
