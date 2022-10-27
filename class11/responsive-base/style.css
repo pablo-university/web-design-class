@@ -1,0 +1,37 @@
+/* body {
+    background-color: rgb(240, 196, 183);
+}
+
+@media (min-width: 360px) {
+    body {
+        background-color: rgb(241, 189, 221);
+    }
+} */
+
+/* --- mobile --- */
+.container {
+    background-color: cadetblue;
+    width: 100%;
+    height: 20em;
+    color: white;
+    margin: auto;
+}
+
+/* other resolutions */
+@media (min-width: 360px) {
+    .container {
+        max-width: 360px;
+    }
+}
+
+@media (min-width: 765px) {
+    .container {
+        max-width: 765px;
+    }
+}
+
+@media (min-width: 1325px) {
+    .container {
+        max-width: 1325px;
+    }
+}
