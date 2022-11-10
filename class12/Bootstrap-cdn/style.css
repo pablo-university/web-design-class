@@ -1,0 +1,10 @@
+@import "./utilities.css";
+
+
+@media (min-width: 678px) {
+    /* aplica estyilos si la condicion se cumple */
+}
+
+h1 {
+    color: var(--bs-primary);
+}
