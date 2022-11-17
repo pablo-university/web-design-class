@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap downloaded</title>
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h3>Varias rows</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    1 of 2
+                </div>
+                <div class="col">
+                    2 of 2
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    1 of 3
+                </div>
+                <div class="col">
+                    2 of 3
+                </div>
+                <div class="col">
+                    3 of 3
+                </div>
+            </div>
+        </div>
+
+        <!-- responsive con columnas -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Ejemplo columnas responsivas</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-3">
+                    <img class="img-fluid w-100"
+                        src="https://images.pexels.com/photos/13876757/pexels-photo-13876757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="">
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <img class="img-fluid w-100"
+                        src="https://images.pexels.com/photos/5800782/pexels-photo-5800782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="">
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <img class="img-fluid w-100"
+                        src="https://images.pexels.com/photos/5732637/pexels-photo-5732637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="">
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <img class="img-fluid w-100"
+                        src="https://images.pexels.com/photos/6530800/pexels-photo-6530800.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="">
+                </div>
+                <div class="col d-none d-md-block">
+                    <img class="img-fluid w-100"
+                        src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container text-center">
+
+            <div class="row">
+                <div class="col">
+                    <h3>Alineación</h3>
+                </div>
+            </div>
+
+            <div class="row min-height-30 align-items-center">
+                <div class="col">
+                    <div class="box-align">
+                        align items
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box-align">
+                        align items
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box-align">
+                        align items
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <div class="box-align">
+                        justify content
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box-align">
+                        justify content
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Textos</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h1>h1</h1>
+                    <h2>h2</h2>
+                    <p class="display-7 text-primary">Ejemplo display textos</p>
+                </div>
+            </div>
+        </div>
+
+
+        <ul class="list-unstyled">
+            <li>This is a list.</li>
+            <li>It appears completely unstyled.</li>
+            <li>Structurally, it's still a list.</li>
+            <li>However, this style only applies to immediate child elements.</li>
+            <li>Nested lists:
+                <ul>
+                    <li>are unaffected by this style</li>
+                    <li>will still show a bullet</li>
+                    <li>and have appropriate left margin</li>
+                </ul>
+            </li>
+            <li>This may still come in handy in some situations.</li>
+        </ul>
+        <span class="d-block pb-5"></span>
+        <span class="d-block pb-5"></span>
+        <span class="d-block pb-5"></span>
+        <span class="d-block pb-5"></span>
+        <span class="d-block pb-5"></span>
+    </main>
+
+    <script src="./bootstrap-5.2.2-dist/js/bootstrap.js"></script>
+</body>
+
+</html>
