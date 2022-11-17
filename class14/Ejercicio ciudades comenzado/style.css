@@ -1,0 +1,5 @@
+.cover{
+    background-image: url("./img/ciudad.jpg");
+    height: 100vh;
+    background-size: cover;
+}
