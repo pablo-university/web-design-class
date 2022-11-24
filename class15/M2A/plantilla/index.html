@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Heladería pepito</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="describir aqui">
+    <!--Primero el móvil, no tender a hacer zoom, sino levantar a escala natural siempre y cuando haya
+       sido pensado como un sitio responsive, y anular el comportamiento de ajustar a los límites del dispositivo
+       el contenido, cuando este sobresalga-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <!--Bootstrap CSS-->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!--CSS Propio-->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+
+    <!-- JavaScript -->
+    <!-- Popper.js + Bootstrap JS o Boostrap con Popper inc. -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!--<script src="js/popper.min.js"></script>-->
+    <!--<script src="js/bootstrap.js"></script>-->
+
+</head>
+
+<body>
+    <header class="bg-dark text-light">
+        <div class="container">
+            <div class="row g-3 justify-content-center justify-content-xl-between pb-3">
+                <div class="col-4 col-lg-2">
+                    <img class="img-fluid" src="./img/logo.svg" alt="logo descp">
+                </div>
+                <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-xl-end">
+                    <nav class="d-flex align-items-center">
+                        <button class="btn btn-outline-light">SABORES</button>
+                        <button class="btn btn-outline-light">GALERIA</button>
+                        <button class="btn btn-outline-light">TIENDA</button>
+                        <button class="btn btn-outline-light">NOVEDADES</button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="cover d-flex justify-content-center align-items-center">
+            <h1 class="text-center">El mejor Helado artesanal</h1>
+        </section>
+
+        <section class="container">
+            <div class="row text-center">
+                <h3>DESCUBRI</h3>
+                <h2>Nuestros Sabores</h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 text-center">
+                <!-- card -->
+                <div>
+                    <!-- <div> -->
+                    <img class="img-fluid" src="./img/gusto-1.png" alt="gusto uno de helado...">
+                    <h3>STRAWBERRY</h3>
+                    <p>Made with fresh made with love</p>
+                    <!-- </div> -->
+                </div>
+                <div>
+                    <img class="img-fluid" src="./img/gusto-2.png" alt="gusto uno de helado...">
+                    <h3>COOKIES</h3>
+                    <p>Whipped cream gelato with cookie swirls, developed exclusively by Lucciano�s in Italy.
+                    </p>
+                </div>
+                <div>
+                    <img class="img-fluid" src="./img/gusto-3.png" alt="gusto uno de helado...">
+                    <h3>TIRAMISÚ</h3>
+                    <p>Inspired by the classic Italian dessert with a super creamy mascarpone cheese.
+                    </p>
+                </div>
+                <div>
+                    <img class="img-fluid" src="./img/gusto-4.png" alt="gusto uno de helado...">
+                    <h3>LIME</h3>
+                    <p>Gelato made with freshly sqeezed lime juice.</p>
+                </div>
+                <!--  
+                Ejemplo para ver que pasa si mi grilla en md tiene 2 columnas y agrego un 5to elemento
+                
+                <div>
+                    <img class="img-fluid" src="./img/gusto-4.png" alt="gusto uno de helado...">
+                    <h3>LIME</h3>
+                    <p>Gelato made with freshly sqeezed lime juice.</p>
+                </div> -->
+            </div>
+        </section>
+
+        <section class="bg-light py-5">
+            <div class="container">
+                <div class="row text-center">
+                    <h3>DISFRUTA NUESTRA</h3>
+                    <h2>Galería</h2>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                    <div>
+                        <img class="img-fluid" src="./img/galeria-1.jpeg" alt="galeria...">
+                        <p>Local Mostrador</p>
+                    </div>
+                    <div class="d-none d-md-block">
+                        <img class="img-fluid" src="./img/galeria-2.jpeg" alt="galeria...">
+                        <p>Local Mostrador</p>
+                    </div>
+                    <div class="d-none d-md-block">
+                        <img class="img-fluid" src="./img/galeria-3.jpeg" alt="galeria...">
+                        <p>Local Mostrador</p>
+                    </div>
+                    <div class="d-none d-md-block">
+                        <img class="img-fluid" src="./img/galeria-4.jpeg" alt="galeria...">
+                        <p>Local Mostrador</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container d-none d-md-block">
+            <form class="row row-cols-2">
+                <div>
+                    <input class="w-100" type="text" placeholder="Username">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-dark w-100">SUBMIT</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

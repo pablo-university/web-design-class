@@ -1,0 +1,63 @@
+/* FUENTES */
+@font-face {
+    font-family: Titulos;
+    src: url("../fonts/Yellow.ttf");
+}
+
+@font-face {
+    font-family: Textos;
+    src: url("../fonts/Montserrat.ttf");
+}
+
+* {
+    font-family: Textos, 'Courier New', Courier, monospace;
+}
+
+h1,
+h2 {
+    font-family: Titulos;
+}
+
+.cover {
+    background-image: url('../img/cocinero.png');
+    background-color: #c5c5c5;
+    min-height: 60vh;
+    background-position-x: center;
+
+}
+
+.cover h1 {
+    font-size: 7em;
+    color: aliceblue;
+}
+
+main section.container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+/* ESPECIFICACIONES 
+
+H1 y H2 - Fuente Titulos
+A, P y H3 - Fuente Textos
+
+H1 - TAMAÑO 4EM Y OPACIDAD 0.8
+H2 - TAMAÑO 3.5EM
+H3 TAMAÑO 1.2 EM Y LETTER SPACING 3PX
+P Y PIE DE FOTO TAMAÑO 0.7EM Y LETTER SPACING 1PX
+
+COLORES
+WHITE 
+BLACK
+GREY
+rgb(65, 65, 65)
+rgb(196, 196, 196) - BORDE FOOTER
+rgb(237, 218, 13) - HOVER IR ARRIBA
+
+IMAGEN DEL LOGO: ANCHO 100PX
+
+SECCION INICIAL HELADO ARTESANAL: ALTURA 70 DEL VIEWPORT
+
+*/
+
+/* COMIENZA CSS DEL SITIO */
